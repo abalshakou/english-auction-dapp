@@ -79,7 +79,7 @@ contract EnglishAuction {
         require(!ended,   "ended");
         require(block.timestamp >= endAt, "not ended");
 
-        ended = true;
+      //  ended = true;
         started = false;
 
         if (highestBidder != address(0)) {
@@ -90,6 +90,10 @@ contract EnglishAuction {
         }
 
         emit End(highestBidder,highestBid);
+
+        highestBidder = address(0);
+        highestBid = 0;
+
     }
 
 }

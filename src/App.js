@@ -7,11 +7,12 @@ import {NavBar} from './NavBar';
 
 function App() {
   const [accounts, setAccounts] = useState([]);
+  const [highestBid, setHighestBid] = useState("");
 
   return (
     <div className="App">
-      <NavBar accounts={accounts} setAccounts={setAccounts}></NavBar>
-      <MainBid accounts={accounts} setAccounts={setAccounts}></MainBid>
+      <NavBar accounts={accounts} setAccounts={setAccounts} highestBid={highestBid} setHighestBid={setHighestBid}></NavBar>
+      <MainBid accounts={accounts} setAccounts={setAccounts} highestBid={highestBid} setHighestBid={setHighestBid}></MainBid>
     </div>
   );
 }

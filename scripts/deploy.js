@@ -16,7 +16,7 @@ async function main() {
   const erc721Address = "0x0dda8257e55a008f273711da507e12f4d77164b3";
 
   const EnglishAuction = await hre.ethers.getContractFactory("EnglishAuction");
-  const englishAuction = await EnglishAuction.deploy(erc721Address, 1, 1);
+  const englishAuction = await EnglishAuction.deploy(erc721Address, 88, 1);
 
   await englishAuction.deployed();
 
