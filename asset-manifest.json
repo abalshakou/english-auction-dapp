@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/english-auction-dapp/static/css/main.288f9942.css",
+    "main.js": "/english-auction-dapp/static/js/main.6e6e07b1.js",
+    "static/media/brgbml.png": "/english-auction-dapp/static/media/brgbml.afe1e8e5faf7f66f2fdc.png",
+    "index.html": "/english-auction-dapp/index.html",
+    "main.288f9942.css.map": "/english-auction-dapp/static/css/main.288f9942.css.map",
+    "main.6e6e07b1.js.map": "/english-auction-dapp/static/js/main.6e6e07b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.288f9942.css",
+    "static/js/main.6e6e07b1.js"
+  ]
+}
