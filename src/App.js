@@ -109,12 +109,6 @@ function App() {
 
             handlerHighestBid(contractEth);
 
-            console.log('provider: ', provider);
-            console.log('setAccount: ', accounts);
-            console.log('setContract: ', contractEth);
-            console.log('Contract: ', contract);
-
-
         } else {
             console.log("Please install Metamask!");
         }
